@@ -19,7 +19,7 @@
               "  pm.expect(pm.response.json().id).to.eql(1)",
               "})",
               "pm.test(\"O nome é Leanne Graham\", () => {",
-              "  pm.expect(pm.response.json().name).to.eql(\"Fulano\")",
+              "  pm.expect(pm.response.json().name).to.eql(\"Leanne Graham\")",
               "})",
               "pm.test(\"O corpo segue o JSON Schema\", () => {",
               "  const schema = {",
