@@ -19,7 +19,7 @@
               "  pm.expect(pm.response.json().id).to.eql(1)",
               "})",
               "pm.test(\"O nome é Leanne Graham\", () => {",
-              "  pm.expect(pm.response.json().name).to.eql(\"Leanne Graham\")",
+              "  pm.expect(pm.response.json().name).to.eql(\"Fulano\")",
               "})",
               "pm.test(\"O corpo segue o JSON Schema\", () => {",
               "  const schema = {",
@@ -37,7 +37,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://jsonplaceholder.typicode.com/users/2",
+          "raw": "https://jsonplaceholder.typicode.com/users/1",
           "protocol": "https",
           "host": [
             "jsonplaceholder",
