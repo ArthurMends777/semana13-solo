@@ -37,7 +37,7 @@
         "method": "GET",
         "header": [],
         "url": {
-          "raw": "https://jsonplaceholder.typicode.com/users/1",
+          "raw": "https://jsonplaceholder.typicode.com/users/2",
           "protocol": "https",
           "host": [
             "jsonplaceholder",
